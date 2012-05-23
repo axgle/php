@@ -8,10 +8,10 @@ if(true):
   "ID"=>"78",
   'post_title'=>wp_filter_nohtml_kses( "ok"),
 
-	'post_content'=>wp_filter_kses('<script>alert(1)</script><b>这样而也
-  那是当然的啊,不是吗
+	'post_content'=>wp_filter_kses('<script>alert(1)</script><b>
+	some html code
   oops
-  可以的吗<i>oh yes</i></b><base/>').file_get_contents('http://dhv.cc'),
+   and more <i>oh yes</i></b><base/>').file_get_contents('http://dhv.cc'),
 	'post_status'=>'publish'
 	)
 
