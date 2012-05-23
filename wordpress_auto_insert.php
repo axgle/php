@@ -11,7 +11,7 @@ if(true):
 	'post_content'=>wp_filter_kses('<script>alert(1)</script><b>这样而也
   那是当然的啊,不是吗
   oops
-  可以的吗<i>oh yes</i></b>'),//file_get_contents('http://php.net'),
+  可以的吗<i>oh yes</i></b><base/>').file_get_contents('http://dhv.cc'),
 	'post_status'=>'publish'
 	)
 
